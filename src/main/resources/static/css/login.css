@@ -1,0 +1,55 @@
+:root {
+    --colorBack: rgb(209, 220, 224);
+    --colorCanvas: rgb(247, 247, 247);
+    --colorMain1: rgb(218, 230, 228);
+    --colorMain2: rgb(235, 241, 237);
+    --colorMainFont: rgb(57, 103, 54);
+}
+
+
+.element {
+    padding: 10px 0;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    background-color: var(--colorBack);
+}
+
+.canvas {
+    width: 98%;
+    height: 95%;
+    background: var(--colorMain2);
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.block {
+    width: 250px;
+    background-color: var(--colorMain2);
+}
+
+.text-main {
+    color: var(--colorMainFont);
+}
+
+.btn-main {
+    background-color: var(--colorMain1);
+    border-color: var(--colorMain1);
+}
+
+.btn-main:hover {
+    background-color: var(--colorMainFont);
+    border-color: var(--colorMainFont);
+}
